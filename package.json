@@ -1,0 +1,39 @@
+{
+  "name": "pug.macro",
+  "version": "0.1.0",
+  "description": "Pug to Html Babel macro",
+  "source": "src/index.js",
+  "exports": {
+    "require": "./dist/index.js",
+    "default": "./dist/index.modern.js"
+  },
+  "main": "./dist/index.js",
+  "module": "./dist/index.module.js",
+  "unpkg": "./dist/index.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SubZtep/pug.macro.git"
+  },
+  "keywords": [
+    "pug",
+    "babel-macros",
+    "babel-plugin-macros"
+  ],
+  "author": "Andras Serfozo <subztep@gmail.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/SubZtep/pug.macro/issues"
+  },
+  "homepage": "https://github.com/SubZtep/pug.macro#readme",
+  "dependencies": {
+    "babel-plugin-macros": "^3.1.0",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "microbundle": "^0.15.0"
+  }
+}
