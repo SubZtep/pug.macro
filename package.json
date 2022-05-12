@@ -1,8 +1,8 @@
 {
   "name": "pug.macro",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pug to Html Babel macro",
-  "source": "src/index.js",
+  "source": "src/index.ts",
   "exports": {
     "require": "./dist/index.js",
     "default": "./dist/index.modern.js"
@@ -37,6 +37,8 @@
     "pug": "^3.0.2"
   },
   "devDependencies": {
+    "@types/babel-plugin-macros": "^2.8.5",
+    "@types/pug": "^2.0.6",
     "microbundle": "^0.15.0"
   }
 }
