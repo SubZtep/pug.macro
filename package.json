@@ -1,9 +1,11 @@
 {
   "name": "pug.macro",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Pug to Html Babel macro",
   "source": "src/index.ts",
   "exports": {
+    "browser": "./dist/index.module.js",
+    "umd": "./dist/index.umd.js",
     "require": "./dist/index.js",
     "default": "./dist/index.modern.js"
   },
